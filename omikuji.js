@@ -1,8 +1,4 @@
-let arr = ["サル","ゴリラ","チンパンジー"]
-alert(arr[1])
-
-Math.random()
-Math.floor(3,14)
-Math.floor(Math.random()*3)
-let animal = arr[Math.floor(Math.random()*3)]
-alert(animal)
+let hako = ["大吉","中吉","吉","小吉","凶","大凶"]
+let index = Math.floor(Math.random() * 6)
+let unsei = hako[index]
+console.log(unsei)
