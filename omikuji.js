@@ -4,3 +4,7 @@ function omikuji(){
     let unsei = hako[index];
     console.log(unsei);
 }
+
+for (let i = 0;i<10;i++){
+    omikuji();
+}
