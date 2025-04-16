@@ -5,6 +5,6 @@ function omikuji(year){
     console.log(year + "今年の運勢は…" + unsei + "です！");
 }
 
-for (let i = 0;i<10;i++){
-    omikuji(2025);
+for (let i = 2025;i < 2125;i++){
+    omikuji(i);
 }
